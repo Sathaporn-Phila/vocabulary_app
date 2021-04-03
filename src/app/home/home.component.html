@@ -1,0 +1,2 @@
+<input type="file" accept="audio/*" #recorder (change)="changeSource($event)">
+<audio #player controls [src]="url"></audio>
